@@ -1,0 +1,8 @@
+{
+  "name": "project/pdf-word",
+  "description": "PDF to Word Converter",
+  "require": {
+    "phpoffice/phpword": "^1.3",
+    "smalot/pdfparser": "^2.12"
+  }
+}
