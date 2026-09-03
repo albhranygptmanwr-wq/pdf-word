@@ -1,4 +1,4 @@
-```python
+
 from pathlib import Path
 import sys
 
@@ -54,4 +54,4 @@ if __name__ == "__main__":
             file=sys.stderr
         )
         sys.exit(1)
-```
+
