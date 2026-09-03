@@ -1,4 +1,4 @@
-```python
+
 from fastapi import FastAPI, UploadFile, File, HTTPException
 from fastapi.responses import FileResponse
 from starlette.background import BackgroundTask
@@ -157,4 +157,3 @@ async def convert_pdf(file: UploadFile = File(...)):
             await file.close()
         except Exception:
             pass
-```
